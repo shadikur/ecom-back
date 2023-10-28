@@ -9,12 +9,17 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.15.0",
-    "@strapi/plugin-users-permissions": "4.15.0",
     "@strapi/plugin-i18n": "4.15.0",
-    "better-sqlite3": "8.6.0"
+    "@strapi/plugin-users-permissions": "4.15.0",
+    "@strapi/provider-email-nodemailer": "^4.15.0",
+    "@strapi/provider-upload-cloudinary": "^4.15.0",
+    "@strapi/strapi": "4.15.0",
+    "better-sqlite3": "8.6.0",
+    "strapi-chatgpt": "^1.0.2",
+    "strapi-plugin-io": "^1.1.4",
+    "strapi-provider-firebase-storage": "^1.0.4",
+    "strapi-stripe": "^3.4.1"
   },
   "author": {
     "name": "A Strapi developer"
